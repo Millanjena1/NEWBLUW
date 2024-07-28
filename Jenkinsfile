@@ -13,11 +13,5 @@ pipeline {
       }
     }
 
-    stage('as') {
-      steps {
-        git(url: 'https://github.com/Millanjena1/NEWBLUW.git', branch: '*')
-      }
-    }
-
   }
 }
